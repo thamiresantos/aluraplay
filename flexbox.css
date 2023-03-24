@@ -1,0 +1,23 @@
+.cabecalho__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    
+}
+
+.cabecalho__pesquisar__item {
+    display: none; /*para aparecer*/
+}
+
+.superior__secao__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media(min-width: 834px) {
+    .cabecalho__pesquisar__item {
+        display: block; /*para sumir*/
+    }
+}
