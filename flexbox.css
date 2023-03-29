@@ -142,6 +142,7 @@
 
 }
 
+    /* MENU PARA DESKTOP*/
 @media(min-width: 1000px) {
     .menu__container {
         width: 239px;
