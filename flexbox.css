@@ -13,10 +13,14 @@
     display: none; /*para aparecer*/
 }
 
+/* SUPERIOR SEÇÃO */
+
 .superior__secao__container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    white-space: nowrap; /*palavras uma do lado da outra*/
+    overflow: scroll;
+    gap: 15px; /* espaçamento entre os itens*/
 }
 
 
